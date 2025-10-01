@@ -1,0 +1,19 @@
+{"ts":1759090686900,"mode":"free","role":"user","content":"ciao","model":"auto","provider":"openai","attachments":[]}
+{"ts":1759090745785,"mode":"free","role":"user","content":"ciao","model":"gpt-5","provider":"openai","attachments":[]}
+{"ts":1759090748501,"mode":"free","role":"assistant","content":"Ciao! Come posso aiutarti oggi?","model":"gpt-5"}
+{"ts":1759162684293,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759162750427,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759162752097,"mode":"free","role":"assistant","content":"Ciao! Come posso aiutarti oggi?","model":"gpt-4o-mini"}
+{"ts":1759163926344,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759163978548,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164178316,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164243416,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164374699,"mode":"free","role":"user","content":"ciao","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164466231,"mode":"free","role":"user","content":"cioa","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164468082,"mode":"free","role":"assistant","content":"Sembra che tu stia scrivendo \"ciao\"! Hai bisogno di aiuto con qualcosa in particolare?","model":"gpt-4o-mini"}
+{"ts":1759164476750,"mode":"free","role":"user","content":"ciao","model":"gpt-5","provider":"openai","attachments":[]}
+{"ts":1759164481783,"mode":"free","role":"assistant","content":"Ciao di nuovo! In cosa posso esserti utile? Posso aiutarti con sviluppo full‑stack, debug, API, database, DevOps o qualsiasi domanda tecnica.","model":"gpt-5"}
+{"ts":1759164486864,"mode":"free","role":"user","content":"ciao","model":"llama3","provider":"ollama","attachments":[]}
+{"ts":1759164509905,"mode":"free","role":"assistant","content":"Ciao! I'm CLike, your trusty copilot for all things full-stack software engineering. What's on your mind? Need help with a project, or perhaps you're looking to learn something new? Let me know and I'll do my best to assist you!","model":"llama3"}
+{"ts":1759164518515,"mode":"free","role":"user","content":"ciao","model":"gpt-5-mini","provider":"openai","attachments":[]}
+{"ts":1759164521710,"mode":"free","role":"assistant","content":"Ciao! Come posso aiutarti oggi? Preferisci che parli in italiano o in inglese?","model":"gpt-5-mini"}

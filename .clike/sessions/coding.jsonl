@@ -1,0 +1,9 @@
+{"ts":1759162769375,"mode":"coding","role":"user","content":"genera una funzione per i numenri casuali in c","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759162772975,"mode":"coding","role":"assistant","content":"Generated files:\n- /generated/12c32077/src/random_numbers.c","model":"gpt-4o-mini"}
+{"ts":1759163911233,"mode":"coding","role":"user","content":"generaa un afnzione per avere sempre un numenro dispari successivo all'iinput","model":"gpt-4o-mini","provider":"openai","attachments":[]}
+{"ts":1759164542470,"mode":"coding","role":"user","content":"generaa un afnzione per avere sempre un numenro dispari successivo all'iinput\n","model":"gpt-4o","provider":"openai","attachments":[]}
+{"ts":1759164545798,"mode":"coding","role":"assistant","content":"Generated files:\n- /generated/87c0b37d/src/next_odd_number.py","model":"gpt-4o"}
+{"ts":1759164568865,"mode":"coding","role":"user","content":"generaa un afnzione per avere sempre un numenro dispari successivo all'iinput\n","model":"gpt-5-mini","provider":"openai","attachments":[]}
+{"ts":1759164598219,"mode":"coding","role":"assistant","content":"Generated files:\n- /generated/ca978642/src/next_odd.py\n- /generated/ca978642/src/nextOdd.js\n- /generated/ca978642/docs/README.md","model":"gpt-5-mini"}
+{"ts":1759164640853,"mode":"coding","role":"user","content":"funziona che fa echo visualizza l'input che si passa","model":"llama3","provider":"ollama","attachments":[]}
+{"ts":1759164671406,"mode":"coding","role":"assistant","content":"Generated files:\n- /generated/9bfe0e00/src/main.js","model":"llama3"}

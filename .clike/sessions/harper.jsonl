@@ -1,0 +1,40 @@
+{"ts":1759151455752,"mode":"harper","role":"user","content":"ciao","model":"gpt-5","provider":"openai","attachments":[]}
+{"ts":1759151459467,"mode":"harper","role":"assistant","content":"Ciao! Come posso aiutarti oggi? Cerchi supporto su codice, debugging, architettura, DevOps/CI, performance, test o code review? Dimmi stack/language e contesto.","model":"gpt-5"}
+{"ts":1759151463805,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759153124301,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759153439178,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759153677834,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759154195362,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759154386952,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759154470042,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759154501412,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759154652007,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759159732890,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759160357418,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759160445229,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759161221998,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5 profile=— core=[\"IDEA.md\"]","model":"gpt-5","attachments":[]}
+{"ts":1759161281089,"mode":"harper","role":"system","content":"✔ SPEC done — [echo] manual::gpt-5 :: SPEC generation • [files] 1 • [text] 32 chars","model":"gpt-5","attachments":[]}
+{"ts":1759164695102,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=llama3 profile=— core=[\"IDEA.md\"]","model":"llama3","attachments":[]}
+{"ts":1759248297419,"mode":"harper","role":"user","content":"ciao ","model":"gpt-5-mini","provider":"openai","attachments":[]}
+{"ts":1759248300863,"mode":"harper","role":"assistant","content":"Ciao! Come posso aiutarti oggi? (Codice, debug, architettura, consigli su tecnologie...)","model":"gpt-5-mini"}
+{"ts":1759248313588,"mode":"harper","role":"user","content":"▶ SPEC | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759248361839,"mode":"harper","role":"system","content":"✔ SPEC done — [echo] manual::gpt-5-mini :: SPEC generation • [files] 1 • [text] 31 chars","model":"gpt-5-mini","attachments":[]}
+{"ts":1759249519681,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759255105447,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759255520863,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759255587590,"mode":"harper","role":"system","content":"✔ PLAN done — no artifacts","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256017657,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256072253,"mode":"harper","role":"system","content":"✔ PLAN done — no artifacts","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256152001,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256346443,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256579199,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759256642726,"mode":"harper","role":"system","content":"✔ PLAN done — no artifacts","model":"gpt-5-mini","attachments":[]}
+{"ts":1759258859934,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759259105573,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759259170953,"mode":"harper","role":"system","content":"✔ PLAN done — no artifacts","model":"gpt-5-mini","attachments":[]}
+{"ts":1759259793982,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759259859826,"mode":"harper","role":"system","content":"✔ PLAN done — no artifacts","model":"gpt-5-mini","attachments":[]}
+{"ts":1759259997698,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759260055794,"mode":"harper","role":"system","content":"✔ PLAN done — [echo] manual::gpt-5-mini :: PLAN generation • [files] 1 • [text] 32 chars","model":"gpt-5-mini","attachments":[]}
+{"ts":1759315139313,"mode":"harper","role":"user","content":"▶ PLAN | mode=harper model=gpt-5-mini profile=— core=[\"IDEA.md\",\"SPEC.md\"]","model":"gpt-5-mini","attachments":[]}
+{"ts":1759315201648,"mode":"harper","role":"system","content":"✔ PLAN done — [echo] manual::gpt-5-mini :: PLAN generation • [files] 1 • [text] 32 chars","model":"gpt-5-mini","attachments":[]}

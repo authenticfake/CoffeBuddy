@@ -1,72 +1,83 @@
-# IDEA — CoffeBuddy
+# IDEA — CoffeeBuddy (On-Prem)
 
 ## Vision
-CoffeBuddy delivers a focused, outcome-driven solution that solves a real user pain with a lightweight, testable scope. The project is AI-assisted but human-orchestrated.
+CoffeeBuddy streamlines office coffee runs entirely within the corporate network: teammates submit orders via Slack, one teammate is fairly assigned as runner, reminders are sent, and preferences are remembered—without relying on public cloud.
 
 ## Problem Statement
-Summarize the concrete problem in one paragraph. State who is affected, when it happens, and how success will be recognized.
+Teams coordinate coffee orders in ad-hoc Slack threads. Messages get buried, someone forgets to pick up, and no one remembers preferences. In regulated environments, external cloud services are restricted, so the solution must run fully on-prem.
 
 ## Target Users & Context
-- Primary user: …
-- Secondary stakeholders: …
-- Operating context: …
+- Primary: office teammates placing and picking up coffee orders.
+- Secondary: office managers seeking fairness and reduced coordination time.
+- Context: Enterprise Slack workspace; on-prem Kubernetes; internal identity and gateways only.
 
 ## Value & Outcomes
-- Outcome 1: …
-- Outcome 2: …
-- Outcome 3: …
+- Reduce coordination time to under 2 minutes per run.
+- Fewer mistakes with consistent order summaries.
+- Transparent, fair runner assignment across the team.
 
 ## Out of Scope
-List explicitly what is out of scope for the first release to keep the scope crisp.
+Payments, delivery logistics, vendor integrations beyond Slack workflows.
 
 ## Technology Constraints
 ```yaml
 tech_constraints:
   version: 1.0.0
   profiles:
-    - name: cloud
-      runtime: nodejs@20
-      platform: serverless.aws
+    - name: onprem
+      runtime: python 3.x
+      platform: docker
+      ingress: nginx
       api:
+        - slack.events
         - rest
       storage:
         - postgres
-      messaging: []
+      messaging:
+        - kafka
       auth:
         - oidc
       observability:
-        - cloudwatch
+        - logging 
+        - Error management 
   capabilities:
     - type: api.gateway
-      vendor: generic
+      vendor: kong
+      params:
+        routes: internal-only
+    - type: idp
+      vendor: keycloak
+      params:
+        oidc: true
+    - type: db.relational
+      vendor: postgres
+      params:
+        ha: true
+    - type: mq.stream
+      vendor: apache.kafka
+      params:
+        partitions: 3
+    - type: secrets.manager
+      vendor: hashicorp.vault
       params: {}
     - type: ci.ci
-      vendor: github.actions
+      vendor: jenkins
       params: {}
-```    
+```
 ## Risks & Assumptions
 
-Assumption: …
+Assumption: Slack enterprise is allowed internally; incoming events proxied via on-prem gateway.
 
-Risk: …
+Risk: Slack rate limits; mitigated via Kafka buffering and backoff.
 
 ## Success Metrics (early)
 
-Activation rate: …
+Weekly active coffee runs per active user.
 
-Time to first successful action: …
+Time from first /coffee to order confirmation.
 
 ## Sources & Inspiration
 
-Internal notes / market scans
+Slack platform patterns (internal reference).
 
-Competitive baselines / heuristic reviews
-
-## Non-Goals
-<!-- Explicitly state what's out of scope -->
-
-## Constraints
-<!-- Budget, timeline, compliance, legal, platform limits -->
-
-## Strategic Fit
-<!-- Stakeholders, policies, alignment to org goals -->
+Existing enterprise standards for Kubernetes, Keycloak, WSO2, Vault, and Kafka.
